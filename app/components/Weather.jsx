@@ -10,8 +10,8 @@ var Weather = React.createClass({
     }
   },
   handleSearch: function (location) {
-    alert(location);
     var that = this;
+    //alert(location);
     //debugger;
     this.setState({isLoading: true});
 

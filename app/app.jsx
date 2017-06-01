@@ -12,7 +12,7 @@ $(document).foundation();
 
 // App Css
 
-require("style!css!applicationStyles")
+require("style!css!sass!applicationStyles")
 
 ReactDOM.render(
     <Router history={hashHistory}>

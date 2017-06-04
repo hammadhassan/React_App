@@ -48,5 +48,5 @@ module.exports = {
       ]
     },
     // devtool: "eval-source-map",
-    devtool: "inline-source-map"
+    devtool: "eval-source-map"
 };

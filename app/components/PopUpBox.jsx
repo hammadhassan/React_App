@@ -24,15 +24,13 @@ var PopUpBox = React.createClass({
             </div>
         );
         var $modal = $(ReactDOMServer.renderToString(modalMarkup));
-        $(ReactDOM.findDOMNode(this)).html$(modal);
+        $(ReactDOM.findDOMNode(this)).html($modal);
         var modal = new Foundation.Reveal($("#error-modal"));
         modal.open();
     },
     render: function () {
-
       return (
         <div>
-
         </div>
       );
     }
